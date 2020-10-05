@@ -1,8 +1,19 @@
-/* Remove all browser default margins and paddings */
+/* Normalize: Remove all browser default margins and paddings */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box; /* Todo: Review; Browser default "content-size" is more work by excluding padding and border when rendering explicitly-declared width/height */ 
+}
+
+/* Common components */
+section {
+    padding: 60px;
+}
+
+/* Apply theme */
+body {
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 /* Apply styles to <header> */
@@ -35,10 +46,62 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 22px;
 }
-body {
-    color: #39a6b2;
-    font-family: Helvetica, Arial, sans-serif;
+
+/* Apply styles to Hero section */
+.hero {
+    height: 600px;
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover; /* Todo: Review; Other CSS values */
+    background-position: center;
 }
+.hero-form {
+    width: 500px;
+    padding: 20px;
+    border: 3px solid #024e76;
+    color: #024e76;
+    background-color: #fce138;
+}
+.hero-form button {
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    color: #fce138;
+    background-color: #024e76;
+    cursor: pointer;
+}
+/* Reposition form relative to the hero section */
+.hero {
+    position: relative;
+}
+.hero .hero-form {
+    position: absolute; /* Todo: Review; From mockup to code; Acceptable to use r-a positioning */
+    right: 140px;
+    bottom: 120px;
+}
+.hero h3 {
+    margin: 0;
+    font-size: 24px;
+}
+.hero p {
+    margin: 5px 0 15px 0;
+}
+.form-input {
+    display: block;
+    width: 100%;
+    padding: 7px 15px;
+    border: 1px solid #024e76;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #024e76;
+}
+.hero-form label {
+    margin-right: 5px;
+}
+
+/* One way would be to create a new class called hero-form and add it to the opening <div>. The font color in this <div> will be #024e76 and the background color is #fce138.
+ border-color: #024e76; 3px
+*/
+
 
 /* Apply styles to <footer> */
 footer {
