@@ -2,7 +2,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Todo: Review; Browser default "content-size" is more work by excluding padding and border when rendering explicitly-declared width/height */ 
+    box-sizing: border-box; /* Todo: Review; Browser default "content-box" is more work by excluding padding and border when rendering explicitly-declared width/height */ 
 }
 
 /* Common components */
