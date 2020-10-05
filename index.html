@@ -28,6 +28,30 @@
 
     <section>
         <h2>What We Do</h2>
+        <!-- CTA / Hero / Jumbotron Section -->
+        <section>
+            <h3>Get Started Today!</h3>
+            <p>Fill out this form and one of our trainers will schedule a consult.</p>
+            <form>
+                <!-- Todo: Review; name attr is for server, id attr is for label -->
+                <label for="name">Enter full name</label><input type="text" placeholder="Your Name" name="name" id="name" />
+                <label for="email">Enter email address</label><input type="email" placeholder="Email Address" name="email" id="email" />
+                <label for="phone">Enter a telephone number</label><input type="tel" placeholder="Phone Number" name="phone" id="phone" />
+                <p>
+                    <span>Have you worked out with a trainer before?</span>
+                    <input type="radio" name="trainer-confirm" id="trainer-yes">
+                    <labe for="trainer-yes"></labe>
+                    <input type="radio" name="trainer-confirm" id="trainer-no">
+                    <labe for="trainer-no"></labe>
+                </p>
+                <p> <!-- Todo: Review; Semantics; p can be a line or a group of lines of inline elements -->
+                    <label for="age-confirm">I acknowledge that I am at least 18 years of age.</span>
+                    <input type="checkbox" name="age-confirm" id="age-confirm" />
+                </p>
+                <button type="submit">Get running!</button>
+            </form>
+        </section>
+        <!-- END: CTA / Hero / Jumbotron Section -->
     </section>
 
     <section>
