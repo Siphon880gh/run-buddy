@@ -2,7 +2,9 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box; /* Todo: Review; Browser default "content-size" is more work by excluding padding and border when rendering explicitly-declared width/height */ 
 }
+
 /* Apply styles to <header> */
 header {
   padding: 20px 35px;
@@ -16,7 +18,7 @@ header h1 {
     margin: 0;
 }
 header a {
-    text-decoration: none; /* Remove default underline link style */
+    text-decoration: none; /* Remove browser default underline link style */
     color: #fce138;
 }
 header nav {
@@ -34,7 +36,26 @@ header nav ul li a {
     font-size: 22px;
 }
 body {
-    /* more on this crazy alphanumerical value in a minute! */
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Apply styles to <footer> */
+footer {
+  background: #fce138;
+  padding: 40px 35px;
+}
+footer h2 {
+    display: inline; /* Todo: Review; Fundamental in designing heading text, 1 of 2 */
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;  /* Todo: Review; Fundamental in designing heading text, 2 of 2 */
+}
+footer aside {
+    float: right;
+    line-height: 1.5; /* Todo: Review; Fundamental in designing multiple lines of text */
+    text-align: right;
+}
+footer a {
+    color: #024e76;
 }
