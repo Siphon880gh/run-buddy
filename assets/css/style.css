@@ -1,0 +1,40 @@
+/* Remove all browser default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Apply styles to <header> */
+header {
+  padding: 20px 35px;
+  background-color: #39a6b2;
+}
+header h1 {
+    display: inline;
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+}
+header a {
+    text-decoration: none; /* Remove default underline link style */
+    color: #fce138;
+}
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+/* Make nav items horizontal */
+header nav ul li {
+    display: inline;
+}
+/* Nav links style different from content links */
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+body {
+    /* more on this crazy alphanumerical value in a minute! */
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;
+}
