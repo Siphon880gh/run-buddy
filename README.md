@@ -1,3 +1,4 @@
 # UCLA Demo: Run Buddy
 
-Nothing here to see. Just check out index.html.
+View the [landing page](https://Siphon880gh.github.io/ucla-run-buddy).
+<!-- Todo: Review; Create a link in Markdown with [Text](link) >
