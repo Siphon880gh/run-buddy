@@ -1,0 +1,48 @@
+.hero {
+    background-position: bottom;
+    height: auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+/* secondary page hero */
+.hero-secondary {
+    margin: 20px;
+    background-color: black;
+    font-size: 20px;
+    color: red;
+}
+.page-title {
+    display: inline-block;
+    color: #fce138;
+    font-size: 42px;
+    font-weight: normal;
+    font-style: italic;
+    padding: 0 88px 15px 80px;
+}
+.primary-border {
+    border-bottom-width: 4px;
+}
+.secondary-content {
+    width: 80%;
+    margin: 0 auto;
+    color: #024e76;
+}
+.secondary-content h3 {
+    margin: 20px 0;
+    border-bottom-width: 4px;
+    font-size: 25px;
+}
+.secondary-content p {
+    margin: 20px 0;
+    border-bottom-width: 4px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.secondary-content ul {
+    margin: 15px 20px;
+}
+.secondary-content li {
+    margin: 10px 20px; /* Todo: Review; Design; The container has larger margins than their children. Smaller and smaller margins as you go down the descendant elements */
+    color: #39a6b2;
+}
+
