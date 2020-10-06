@@ -98,9 +98,60 @@ header nav ul li a {
     margin-right: 5px;
 }
 
-/* One way would be to create a new class called hero-form and add it to the opening <div>. The font color in this <div> will be #024e76 and the background color is #fce138.
- border-color: #024e76; 3px
-*/
+/* Section style classes */
+.section-title {
+    display: inline-block;
+    padding: 0 100px 20px 100px;
+    margin-bottom: 35px;
+    font-size: 55px;
+    color: #024e76;
+}
+.primary-border {
+    border-bottom: 3px solid #fce138;
+}
+.secondary-border {
+    border-bottom: 3px solid #39a6b2;
+}
+
+/* Apply styles to intro section */
+.intro {
+    text-align: center;
+}
+.intro p {
+    width: 80%;
+    margin: 0 auto; /* Todo: Review; Auto is on the left and right sides because browser will center */
+    line-height: 1.7;
+    font-size: 20px;
+}
+
+/* Apply style to steps section */
+.steps { 
+    text-align: center;
+    background: #fce138;
+}
+.steps div {
+    margin-bottom: 80px;
+}
+
+.steps img {
+    width: 15%;
+    margin: 10px 0;
+}
+
+.steps h3 {
+    color: #024e76;
+    font-size: 38px;
+    margin-top: 10px;
+}
+
+.steps h3 span {
+    font-size: 46px;
+}
+
+.steps p {
+    color: #39a6b2;
+    font-size: 23px;
+}
 
 
 /* Apply styles to <footer> */
